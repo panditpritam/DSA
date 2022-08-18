@@ -29,8 +29,7 @@ int main()
     cout << "Enter a number : ";
     cin >> n;
 
-    cout << "Following are the prime numbers between 0 & " << n << " >>> " << endl;
-    cout << "0 1 ";
+    cout << "Following are the prime numbers between 2 & " << n << " >>> " << endl;
     SieveOfEratosthenes(n);
 
     return 0;
